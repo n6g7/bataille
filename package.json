@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
-    "dev": "yarn build -w"
+    "deploy": "yarn build && now dist",
+    "dev": "rollup -c -w"
   },
   "dependencies": {
     "@vx/curve": "^0.0.153",
