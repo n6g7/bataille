@@ -1,0 +1,33 @@
+{
+  "name": "battle",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c",
+    "dev": "yarn build -w"
+  },
+  "dependencies": {
+    "@vx/curve": "^0.0.153",
+    "@vx/group": "^0.0.153",
+    "@vx/responsive": "^0.0.158",
+    "@vx/scale": "^0.0.153",
+    "@vx/shape": "^0.0.158",
+    "lodash": "^4.17.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-components": "^3.1.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "rollup": "^0.56.2",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-node-resolve": "^3.0.3",
+    "rollup-plugin-replace": "^2.0.0"
+  }
+}
