@@ -1,7 +1,10 @@
 {
-  "name": "battle",
+  "name": "bataille",
   "version": "0.1.0",
+  "description": "A card game simulator",
   "main": "src/index.js",
+  "repository": "git@github.com:n6g7/bataille.git",
+  "author": "Nathan Gaberel <nathan@gnab.fr>",
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
